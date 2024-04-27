@@ -1,0 +1,49 @@
+<br><!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id = "registrationSection">
+        <h2>Register</h2>
+
+        <label>Username:</label>
+        <input type = "text" id = "regUsername">
+
+        <br/>
+
+        <label>Password:</label>
+        <input type = "password" id = "regPassword">
+
+        <br/>
+
+        <label>Confirm Password:</label>
+        <input type = "password" id = "regConfirmPassword">
+        <br/>
+
+        <button onclick = "register()">Register</button>
+        <p id = "registrationMessage"></p>
+    </div>
+
+    <div id = "loginSection">
+        <h2>Login</h2>
+        
+        <label>Username:</label>
+        <input type = "text" id = "loginUsername">
+
+        <br/>
+
+        <label>Password:</label>
+        <input type = "password" id = "loginPassword">
+
+        <br/>
+
+        <button onclick = "login()">Login</button>
+        <p id = "loginMessage"></p>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
